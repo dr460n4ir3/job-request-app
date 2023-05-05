@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Service Request Form</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <h1>Service Request Form</h1>
+    <form id="service-request-form">
+      <label for="name">Name: <input type="text" id="name" name="name" required></label>
+      
+
+      <label for="email">Email: <input type="email" id="email" name="email" required></label>
+      
+
+      <label for="phone">Phone: <input type="tel" id="phone" name="phone" required></label>
+      
+
+      <label for="service-type" style="text-align: left;">Service Type: <select id="service-type" name="service-type" required>
+        <option value="" selected disabled hidden>Select a service type</option>
+        <option value="plumbing">Plumbing</option>
+        <option value="electrical">Electrical</option>
+        <option value="carpentry">Carpentry</option>
+        <option value="painting">Painting</option>
+        <option value="cleaning">Cleaning</option>
+      </select></label>
+      
+
+      <label for="description" style="text-align: left;">Description:</label>
+      <textarea id="description" name="description" rows="5" required></textarea>
+
+      <input type="submit" value="Submit" style="text-align: center; width: 24%;">
+    </form>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>

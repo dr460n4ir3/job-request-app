@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "jd@aol.com",
+        "phone": "555-555-5555",
+        "service type": "Plumbing",
+        "date": "2019-01-01",
+        "time": "12:00",
+        "description": "I need a plumber to fix my sink"
+    },
+    {
+        "id": 2,
+        "name": "Bruce Wayne",
+        "email": "darknight@wayneindustries.com",
+        "service_type": "electrical",
+        "date": "2021-01-01",
+        "time": "2:00pm",
+        "description": "I need a new Batmobile"
+    },
+    {
+        "id": 1,
+        "name": "Stephen A McNeilly",
+        "email": "stephen@mcneilly.dev",
+        "phone": "301-646-4525",
+        "serviceType": "cleaning",
+        "date": "2023-05-05",
+        "time": "10:06:42 PM",
+        "description": "I need my carpets cleaned."
+    },
+    {
+        "name": "Elon Musk",
+        "email": "emusk@twitter.com",
+        "phone": "202-868-5720",
+        "service type": "Electrical",
+        "date": "2023-05-05",
+        "time": "10:28 PM",
+        "description": "I need a new Tesla battery!",
+        "id": 2
+    },
+    {
+        "name": "Luffy",
+        "email": "monkeyd@strawhats.org",
+        "phone": "444-784-7126",
+        "service type": "Painting",
+        "date": "2023-05-05",
+        "time": "10:30 PM",
+        "description": "I am going to be King of the Pirates so I need to repaint my ship!",
+        "id": 3
+    },
+    {
+        "name": "Luke Cage",
+        "email": "lcage@marvel.com",
+        "phone": "240-879-8555",
+        "service type": "Plumbing",
+        "date": "2023-05-05",
+        "time": "10:44 PM",
+        "description": "I got a broken pipe in my apartment!",
+        "id": 4
+    }
+]

@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f56506;
+    padding: 1rem;
+    display: inline-block;
+    border: #f56506 4px solid;
+  }
+  
+  /* Default styles for form */
+  #service-request-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f56506;
+    border-radius: 8px;
+  }
+  
+  #service-request-form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+  #service-request-form input,
+  #service-request-form textarea,
+  #service-request-form select {
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: 75%;
+    text-align: left;
+  }
+  
+  #service-request-form select {
+    text-align: center;
+  }
+  
+  #service-request-form textarea {
+    height: 100px;
+  }
+  
+  #service-request-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    width: 50% !important;
+    text-align: center !important;
+  }
+  
+  /* Media queries for mobile responsiveness */
+  @media (max-width: 600px) {
+    #service-request-form {
+      max-width: 100%;
+    }
+  
+    #service-request-form label,
+    #service-request-form input,
+    #service-request-form textarea,
+    #service-request-form select {
+      margin-bottom: 0.5rem;
+      width: 100%;
+      text-align: left;
+    }
+  
+    #service-request-form select {
+      margin-bottom: 0.5rem;
+      width: 100%;
+      text-align: left;
+    }
+  
+    #service-request-form button[type="submit"] {
+      padding: 0.5rem;
+    }
+  }
+  
